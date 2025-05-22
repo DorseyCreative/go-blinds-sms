@@ -1,0 +1,19 @@
+{
+    "name": "go-blinds-sms",
+    "version": "1.0.0",
+    "description": "AI-powered SMS response system for Go Blinds LLC",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "twilio": "^4.20.0",
+      "openai": "^4.28.0",
+      "dotenv": "^16.3.1"
+    },
+    "keywords": ["sms", "ai", "twilio", "openai"],
+    "author": "Go Blinds LLC",
+    "license": "MIT"
+  }
